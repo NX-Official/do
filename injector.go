@@ -38,6 +38,5 @@ func getInjectorOrDefault(i Injector) Injector {
 	if i != nil {
 		return i
 	}
-
 	return DefaultRootScope
 }
